@@ -9,9 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.L2test">
-        <activity android:name=".SecondFragment"></activity>
-        <activity android:name=".FirstFragment" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".ui.second.SecondFragment"></activity>
+        <activity android:name=".ui.FirstFragment" />
+        <activity android:name=".ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
